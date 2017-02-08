@@ -1,0 +1,19 @@
+{
+  "name": "html-manipulator",
+  "version": "1.0.0",
+  "description": "Gulp tasks for scanning files in a directory, manipulating HTML elements, and saving the changes",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/jeff-matthews/html-manipulator.git"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  },
+  "author": "jeff matthews",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cheerio": "^0.6.2",
+    "gulp-util": "^3.0.7"
+  }
+}

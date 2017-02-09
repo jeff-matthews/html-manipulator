@@ -14,7 +14,7 @@ function wrapAll(selector, wrapper) {
 
 gulp.task('convertLists', function () {
   return gulp
-  //Sacn all .html files in a directory and subdirectory
+  //Scan all .html files in a directory and subdirectory
   .src(['src/**/*.html'])
   .pipe(cheerio({
     run: function ($, file) {

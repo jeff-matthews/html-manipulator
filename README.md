@@ -45,6 +45,6 @@ You can chain multiple Gulp tasks together and run them in parallel to each othe
 3. Run `gulp`.
 4. Inspect the files in the `dist/` directory to see how the jQuery Gulp task changed the HTML.
 5. Revise the jQuery code in [`gulpfile.js`](../gulpfile.js) to manipulate the HTML according to your needs. Refer to [cheerio's docs]() for usage information and examples.
-6. Repeat steps 2-4 as needed until you're satisfied with the HTML output.
+6. Repeat steps 2-5 as needed until you're satisfied with the HTML output.
 
 **_Note:_** _The cheerio package doesn't support all jQuery functions. If you see a "`is not a function`" error in your console after running gulp, chances are you're trying to use an unsupported function. You can either write your own, like I did for wrapAll() in `gulpfile.js` or rethink your approach (i.e., use vanilla JS)._

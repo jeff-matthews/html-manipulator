@@ -14,7 +14,8 @@ function wrapAll(selector, wrapper) {
 
 gulp.task('convertLists', function () {
   return gulp
-  .src(['src/*.html'])
+  //Sacn all .html files in a directory and subdirectory
+  .src(['src/**/*.html'])
   .pipe(cheerio({
     run: function ($, file) {
       // Each file will be run through cheerio and each corresponding `$` will be passed here.
@@ -40,7 +41,7 @@ gulp.task('convertLists', function () {
 
     }
   }))
-  .pipe(gulp.dest('src/'));
+  .pipe(gulp.dest('dist/'));
 });
 
 //Scan all .html files in the src directory and convert lists from Madcap HTMl to real HTML.
